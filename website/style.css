@@ -1,0 +1,122 @@
+/* Common styles for all pages */
+body {
+    background-image: url('img/main.png') ;
+    background-repeat: no-repeat;
+
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+img {
+    width: 170px;
+    height: 100px;
+    margin: 10px;
+    left: 10px;    
+}
+h3{
+    position: relative;
+    bottom: 80px;
+    /* left: 10px; */
+    text-align: center;
+}
+header,navy{
+    background: #67efef;
+    position: relative;
+    padding: 2px;
+    width: 100%;
+    height: 100px;
+}
+/* Keep the content in box for better look */
+.item
+{
+    text-align: justify;
+    padding: 20px;
+    width: 300px;
+}
+.pic 
+{
+    text-align: justify;
+    padding: 20px;
+    width: 400px;
+    height: 400px;
+}
+.pic img{
+    width: 100%;
+
+    height: 100%;
+}
+
+.grid-box{
+    grid-template-columns: auto auto auto;
+    display: grid;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+    background-color: #f2cbcb;
+    overflow: hidden;
+}
+nav li {
+    float: left;
+    /* margin-right: 10px; */
+}
+nav a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav a:hover {
+    background: #FF6B6B;
+    border-radius: 10px;
+}
+.copyright{
+    text-align: center;
+}
+.sub a {
+    color: black;
+    padding: 10px;
+
+}
+.sub a:hover {
+    color:red;
+    padding: 15px;
+}
+.sub ul {
+    color: black;
+    padding: 15px;
+
+}
+.sub li:hover {
+    color:red;
+    padding: 1px;
+}
+
+
+.heading{
+    text-align: center;
+}
+.page {
+    display: none;
+  }
+
+.page:target {
+    display: block;
+}
+.dpt{
+    padding: 15px;
+    text-align: justify;
+
+}
+.page {
+    display: none;
+  }
+
+.page:target {
+    display: block;
+}
+.forms{
+    padding: 20px;
+}
