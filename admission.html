@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title> XYZ ABC</title>
+</head>
+<body>
+    <header>
+        <img src="img/logo.png">
+        <h3>XYZ-ABC</h3>
+    </header>
+    <div class="navy">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="admission.html">Admission</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="heading">
+        <H1>Admission Page</H1>
+    </div>
+    <body>
+        <div class="forms">
+            <form action="admission.html" onclick="submit()">
+                <!-- First name and last name -->
+                <label for="fname">First name :</label>
+                <input type="text" id="fname" name="fname" value="John"><br><br>
+                <label for="lname">Last name :</label>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <!-- Gender -->
+                <label for="Gender">Gender:</label>
+                <label for="m">Male</label>
+                <input type="radio" id="m" name="Gender" value="Male">
+                <label for="f">Female</label>
+                <input type="radio" id="f" name="Gender" value="Female"><br><br>
+                <!-- Date of birth -->
+                <label for="dob">Date of birth:</label>
+                <input type="date" id="dob" name="Dob" max="2007-12-31"><br><br>
+                <!-- 10th and 12th percentage -->
+                <label for = "ten">10<SUP>th</SUP> CGPA</label>
+                <input type="number" id="Ten" name ="Ten" min="0" max ="10" value="cgpa">
+                <label for = "ten">OR PERCENTAGE</label>
+                <input type="number" id="Ten" name ="Ten" min="0" max ="100" value="percentage"><br><br>
+                <label for = "TWELVE">12<SUP>th</SUP> CGPA</label>
+                <input type="number" id="12" name ="Ten" min="0" max ="10" value="cgpa">
+                <label for = "ten">OR PERCENTAGE</label>
+                <input type="number" id="12" name ="Ten" min="0" max ="100" value="percentage"><br><br>
+                <!-- Course -->
+                <label for="course">Select the course</label><br>
+                <input type="radio" name="course" value="Btech">Btech<br>
+                <input type="radio" name="course" value="Mtech">Mtech<br>
+                <input type="radio" name="course" value="Bsc">Bsc<br>
+                <input type="radio" name="course" value="Msc">Msc<br>
+                <input type="radio" name="course" value="Phd">Phd<br><br>
+                <!-- Address -->
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address"><br><br>
+                <label for="phone">Phone number:</label>
+                <input type="tel" id="phone" name="phone"><br><br>
+                <input type="button" value="submit" onclick="showAlert()">
+                <input type="reset">
+            </form>
+        </div>
+        <footer>
+            <div class="copyright">
+                <p>&copy; 2023  XYZ ABC.All rights reserved.</p>
+                <p>Made by chvkrsubhash </p>            
+            </div>
+        </footer>
+    </body>
+</html>
+    
